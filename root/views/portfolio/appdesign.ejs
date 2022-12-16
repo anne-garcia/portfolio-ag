@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head.ejs', { title: title }); -%>
+
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+    
+    <%- include('../partials/header.ejs'); -%>
+    
+    <main id="main">
+
+    <section>
+        <div class="container aos-init aos-animate" data-aos="fade-up">
+            
+            <div class="section-title">
+                <h2>UI/UX - App Design</h2>
+                <p>
+                    From conducting user research to prototyping and testing, I use a user-centered design approach to ensure that the end result is not only visually appealing but also functional and easy to use.      
+                </p>
+            </div>
+
+            <div>
+                <iframe style="border:0; width: 100%; height: 920px" src="https://www.youtube.com/embed/Y_rYloOlkNM"></iframe>
+            </div>
+            
+        </div>
+    </section>        
+
+    </main>    
+   
+    <%- include('../partials/bootstrapjs.ejs'); -%>
+
+    <%- include('../partials/footer.ejs'); -%>
+
+    <a href="/portfolio/appdesign" class="back-to-top d-flex align-items-center justify-content-center active">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+</body>
+</html>

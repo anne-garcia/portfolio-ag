@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head.ejs', { title: title }); -%>
+
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+    
+    <%- include('partials/header.ejs'); -%>
+    
+    <!--Hero Section-->
+
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container d-flex flex-column align-items-center aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Anne Garcia</h1>
+            <h2>Jack of All Trades | Multimedia Designer</h2>
+            <br>
+            <h6 class="call-to-action">Let's work together to make your project a success.</h6>
+            <h6 class="call-to-action">Contact me to learn more.</h6>
+            <a href="/contact" class="btn-about">Contact Me</a>
+        </div>
+    </section>
+    
+   
+    <%- include('partials/bootstrapjs.ejs'); -%>
+
+    <%- include('partials/footer.ejs'); -%>
+
+    <a href="/" class="back-to-top d-flex align-items-center justify-content-center active">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+</body>
+</html>
